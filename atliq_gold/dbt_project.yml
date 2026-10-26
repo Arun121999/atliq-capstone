@@ -34,6 +34,6 @@ models:
     # Config indicated by + and applies to all files under models/example/
     gold:
       +materialized: table
-      #+location_root: "abfss://lakehouse@stgatiqliqliqhakehouse.dfs.core.windows.net/{{ target.schema }}"
+      +location_root: "abfss://lakehouse@stgatiqliqlakehouse.dfs.core.windows.net/{{ target.schema }}"
     example:
       +materialized: view
