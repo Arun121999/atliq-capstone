@@ -14,7 +14,7 @@ jobs:
       DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
     defaults:
       run:
-        working-directory: atliq_gold
+        working-directory: phase1/atliq_gold
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
